@@ -1,0 +1,11 @@
+{
+  "name": "NPS-NLW4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/abbueno/NPS-NLW4.git",
+  "author": "ALLAN BIGHI BUENO <allanbbueno@bol.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
