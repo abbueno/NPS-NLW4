@@ -12,3 +12,8 @@ yarn add ts-node-dev -D
 Anotações aula 2
 yarn add typeorm reflect-metadata pg
 yarn add sqlite3
+yarn typeorm
+yarn typeorm migration:create -n CreateUsers
+yarn typeorm migration:run
+yarn add uuid
+yarn add @type/uuid -D
