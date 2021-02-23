@@ -1,3 +1,5 @@
+Anotações aula 1
+
 instalar pelo terminal
 yarn init -y
 yarn add express
@@ -7,4 +9,6 @@ yarn tsc --init
 yarn add ts-node-dev -D
 
 
-
+Anotações aula 2
+yarn add typeorm reflect-metadata pg
+yarn add sqlite3
