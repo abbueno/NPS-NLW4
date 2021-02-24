@@ -17,3 +17,6 @@ yarn typeorm migration:create -n CreateUsers
 yarn typeorm migration:run
 yarn add uuid
 yarn add @type/uuid -D
+
+Anotações Aula 3
+yarn typeorm migration:create -n CreateSurveys
