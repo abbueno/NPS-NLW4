@@ -24,7 +24,7 @@ class SendMailController {
             id: survey_id,
         });
 
-        if(!surveyAlreadyExists) {
+        if(!survey) {
             return response.status(400).json({
                 error: "Survey does not exists!",
             });
@@ -37,6 +37,8 @@ class SendMailController {
         });
         await surveysUsersRepository.save(surveyUser);
         // Enviar e-mail para o usuário
+
+        await SendMailService.execute(email, survey.title, survey.description);
 
         return response.json(surveyUser);
     }

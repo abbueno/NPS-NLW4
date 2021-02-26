@@ -28,3 +28,5 @@ yarn add supertest @types/supertest -D
 Anotações Aula 4
 yarn typeorm migration:create -n CreateSurveysUsers
 yarn typeorm migration:run
+yarn add nodemailer
+yarn add @types/nodemailer -D
